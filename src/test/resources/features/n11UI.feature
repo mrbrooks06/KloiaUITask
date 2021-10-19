@@ -7,7 +7,7 @@ Feature: n11 Task
     And   user enters valid credentials to input boxes
     Then  user verified login successfully
 
-
+  @wip
   Scenario: Favorite functionality test
     When user closes popups pages
     And user clicks Giris Yap Button
@@ -21,7 +21,7 @@ Feature: n11 Task
     And user clicks Favorilerim Link
     Then user verifies correct product added to favorite
 
-  @wip
+
   Scenario:Footer test
     When user checks footer Links
     And  user clicks "Markalar" link from Footer

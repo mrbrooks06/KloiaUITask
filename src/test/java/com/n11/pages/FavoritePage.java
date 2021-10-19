@@ -8,7 +8,7 @@ public class FavoritePage extends BasePage {
     ProductDetailPages productDetailPages = new ProductDetailPages ();
 
 
-    @FindBy(xpath = "//h4[.='Favorilerim (1)']")
+    @FindBy(xpath = "(//a/h4)[1]")
     public WebElement favorilerimLink;
 
     @FindBy(css = "[itemprop='name']")

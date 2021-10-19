@@ -3,104 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-19T01:42:42.800Z",
+        "start_timestamp": "2021-10-19T07:29:30.486Z",
         "before": [
           {
             "result": {
-              "duration": 4924000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.n11.stepDef.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 3,
-        "name": "Login with FB",
-        "description": "",
-        "id": "n11-task;login-with-fb",
-        "after": [
-          {
-            "result": {
-              "duration": 2158000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.n11.stepDef.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5273000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user closes popups pages",
-            "match": {
-              "location": "com.n11.stepDef.LoginStepDef.user_closes_popups_pages()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2288000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks Giris Yap Button",
-            "match": {
-              "location": "com.n11.stepDef.LoginStepDef.user_clicks_Giris_Yap_Button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 323000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks fb ile giris yap Button",
-            "match": {
-              "location": "com.n11.stepDef.LoginStepDef.user_clicks_fb_ile_giris_yap_Button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1962000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user enters valid credentials to input boxes",
-            "match": {
-              "location": "com.n11.stepDef.LoginStepDef.user_enters_valid_credentials_to_input_boxes()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7260000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user verified login successfully",
-            "match": {
-              "location": "com.n11.stepDef.LoginStepDef.user_verified_login_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-19T01:43:07.063Z",
-        "before": [
-          {
-            "result": {
-              "duration": 4339000000,
+              "duration": 4292000000,
               "status": "passed"
             },
             "match": {
@@ -115,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2198000000,
+              "duration": 2176000000,
               "status": "passed"
             },
             "match": {
@@ -128,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5113000000,
+              "duration": 5140000000,
               "status": "passed"
             },
             "line": 12,
@@ -140,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2576000000,
+              "duration": 2436000000,
               "status": "passed"
             },
             "line": 13,
@@ -152,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 387000000,
+              "duration": 345000000,
               "status": "passed"
             },
             "line": 14,
@@ -164,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 1865000000,
+              "duration": 1746000000,
               "status": "passed"
             },
             "line": 15,
@@ -176,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 8256000000,
+              "duration": 8225000000,
               "status": "passed"
             },
             "line": 16,
@@ -198,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 6508000000,
+              "duration": 6007000000,
               "status": "passed"
             },
             "line": 17,
@@ -216,7 +123,7 @@
           },
           {
             "result": {
-              "duration": 142000000,
+              "duration": 114000000,
               "status": "passed"
             },
             "line": 18,
@@ -234,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 5037000000,
+              "duration": 5412000000,
               "status": "passed"
             },
             "line": 19,
@@ -246,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 2221000000,
+              "duration": 2774000000,
               "status": "passed"
             },
             "line": 20,
@@ -264,7 +171,7 @@
           },
           {
             "result": {
-              "duration": 1392000000,
+              "duration": 1658000000,
               "status": "passed"
             },
             "line": 21,
@@ -276,88 +183,13 @@
           },
           {
             "result": {
-              "duration": 24000000,
+              "duration": 26000000,
               "status": "passed"
             },
             "line": 22,
             "name": "user verifies correct product added to favorite",
             "match": {
               "location": "com.n11.stepDef.FavoriteStepDef.user_verifies_correct_product_added_to_favorite()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-19T01:43:47.136Z",
-        "before": [
-          {
-            "result": {
-              "duration": 4150000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.n11.stepDef.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 25,
-        "name": "Footer test",
-        "description": "",
-        "id": "n11-task;footer-test",
-        "after": [
-          {
-            "result": {
-              "duration": 2168000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.n11.stepDef.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1260000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "user checks footer Links",
-            "match": {
-              "location": "com.n11.stepDef.FooterStepDef.user_checks_footer_Links()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1051000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "user clicks \"Markalar\" link from Footer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Markalar\"",
-                  "offset": 12
-                }
-              ],
-              "location": "com.n11.stepDef.FooterStepDef.user_clicks_link_from_Footer(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "user verifies links are same",
-            "match": {
-              "location": "com.n11.stepDef.FooterStepDef.user_verifies_links_are_same()"
             },
             "keyword": "Then "
           }

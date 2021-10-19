@@ -5,20 +5,28 @@ import com.n11.pages.FavoritePage;
 import com.n11.pages.ProductDetailPages;
 import com.n11.pages.ProductsPage;
 import com.n11.utilities.BrowserUtils;
+import com.n11.utilities.Driver;
 import io.cucumber.java.en.*;
 
+import io.cucumber.java.en_old.Ac;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
+
+import javax.swing.*;
 
 public class FavoriteStepDef {
     ProductsPage productsPage=new ProductsPage ();
     ProductDetailPages productDetailPages=new ProductDetailPages ();
     FavoritePage favoritePage =new FavoritePage ();
     String ecpectedProductTitle="";
+    Actions actions = new Actions (Driver.get () );
 
     @When("user hover {string} clicks {string}")
     public void user_hover_clicks(String mainProduct, String subProduct) {
-      new BasePage ().categoriesChoose ( mainProduct );
+        actions.moveToElement (   new BasePage ().categoryChoose ( mainProduct )).perform ();
+
+        //new BasePage ().categoriesChoose ( mainProduct );
 
       productsPage.cosmeticProduct ( subProduct ).click ();
 
