@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.n11.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.085 s - in com.n11.runners.TestRunner
