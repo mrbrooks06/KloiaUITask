@@ -8,6 +8,7 @@ import com.n11.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 
 
 import java.util.Set;
@@ -22,11 +23,18 @@ public class LoginStepDef {
 
         BrowserUtils.waitFor ( 5 );
         loginPage.popupClose.click ();
+        BrowserUtils.waitFor ( 5 );
+
+        loginPage.dahaSonra.click ();
 
     }
 
     @When("user clicks Giris Yap Button")
     public void user_clicks_Giris_Yap_Button() {
+
+        Actions actions=new Actions ( Driver.get () );
+        actions.moveToElement ( loginPage.GririsYapButton ).perform ();
+
         loginPage.GririsYapButton.click ();
     }
 
@@ -60,7 +68,7 @@ public class LoginStepDef {
 
     @Then("user verified login successfully")
     public void user_verified_login_successfully() {
-        BrowserUtils.waitFor ( 4 );
+        BrowserUtils.waitFor ( 5 );
         Assert.assertFalse ( loginPage.accountName.getText ().isEmpty () );
     }
 

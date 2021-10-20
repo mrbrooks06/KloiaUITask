@@ -25,8 +25,8 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//input[@name='login']")
     public WebElement fbLoginPupUpButton;
 
-    @FindBy(id = "confirmBtn")
-    public WebElement sozlesme;
+    @FindBy(xpath = "//div[@class='dn-slide-buttons horizontal']/button[@class='dn-slide-deny-btn']")
+    public WebElement dahaSonra;
 
     @FindBy(xpath = "(//a[@title=\"Hesabım\"])[2]")
     public WebElement accountName;

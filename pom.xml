@@ -54,8 +54,7 @@
                     <runOrder>alphabetical</runOrder>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>/*TestRunner.java</include>
-                        <include>/*FailedTestRunner.java</include>
+                        <include>/*CukesRunner.java</include>
                     </includes>
                 </configuration>
             </plugin>
